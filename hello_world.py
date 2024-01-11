@@ -2,4 +2,4 @@
 
 for i in range(0, 33):
     print("rango de 0 a 30")
-
+dasjdasdas
