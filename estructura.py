@@ -10,7 +10,8 @@ Nota3 = int(input("Cuál es tu Nota3?"))
 
 input(estudiants) # Aqui estas pidiendo algo por pantalla al usuario, pero no lo guardas en nungun sitio.
 
-nom = str(input("Cuál es tu nombre?") # input ya es un string, no hace falta hacer el cast a str
+
+nom = str(input("Cuál es tu nombre?")) # input ya es un string, no hace falta hacer el cast a str
 
 #nota1 * 0.3 
 #nota2 * 0.3
