@@ -4,7 +4,8 @@ biblioteca = []
 #añadido junto a los elif, esto hará que se repita función solo con el elif de abajo, el que corresponda a acada función.
 
 
-    def agregar_libro(biblioteca):
+    
+def agregar_libro(biblioteca):
         titulo = input("Ingrese el título del libro: ")
         autor = input("Ingrese el autor del libro: ")
         genero = input("Ingrese el género del libro: ")
@@ -13,7 +14,7 @@ biblioteca = []
         biblioteca.append(libro)
         print(f'Libro "{titulo}" agregado a la biblioteca.')
 
-    def prestar_libro(biblioteca) 
+def prestar_libro(biblioteca) 
         titulo = input("Ingrese el título del libro a prestar: ")
         encontrado = False
         for libro in biblioteca:
@@ -25,7 +26,7 @@ biblioteca = []
         if not encontrado:
             print(f'Libro "{titulo}" no disponible para préstamo.')
 
-    def devolver_libro(biblioteca) 
+def devolver_libro(biblioteca) 
         titulo = input("Ingrese el título del libro a devolver: ")
         encontrado = False
         for libro in biblioteca:
@@ -37,7 +38,7 @@ biblioteca = []
         if not encontrado:
             print(f'No se puede devolver el libro "{titulo}".')
 
-    def salir_libro(biblioteca) 
+def salir_libro(biblioteca) 
         print("Saliendo del programa.")
         
 
