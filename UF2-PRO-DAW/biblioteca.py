@@ -1,12 +1,8 @@
 biblioteca = []
 
-while True:
-    print("\n1. Agregar libro")
-    print("2. Prestar libro")
-    print("3. Devolver libro")
-    print("4. Salir")
+#Como he explicado en mi primer commit, he vuelto a hacer lo mismo pero con las 2 últimas funciones, la de devolver y salir. Le he añadido 2 defs y abajo los he  
+#añadido junto a los elif, esto hará que se repita función solo con el elif de abajo, el que corresponda a acada función.
 
-    opcion = input("Seleccione una opción: ")
 
     def agregar_libro(biblioteca):
         titulo = input("Ingrese el título del libro: ")
@@ -29,7 +25,7 @@ while True:
         if not encontrado:
             print(f'Libro "{titulo}" no disponible para préstamo.')
 
-    elif opcion == "3":
+    def devolver_libro(biblioteca) 
         titulo = input("Ingrese el título del libro a devolver: ")
         encontrado = False
         for libro in biblioteca:
@@ -41,13 +37,11 @@ while True:
         if not encontrado:
             print(f'No se puede devolver el libro "{titulo}".')
 
-    elif opcion == "4":
+    def salir_libro(biblioteca) 
         print("Saliendo del programa.")
-        break
+        
 
-    else:
-        print("Opción no válida. Por favor, seleccione una opción correcta.")
-
+# He quitado este break ya que no está en ningún bucle.
 
 while True:
     print("\n1. Agregar libro")
@@ -57,8 +51,19 @@ while True:
 
     opcion = input("Seleccione una opción: ")
 
+
     if opcion == "1":
         agregar_libro(biblioteca)
     
     elif opcion == "2":
         prestar_libro(biblioteca)
+        
+
+    elif opcion == "3":
+        devolver_libro(biblioteca)
+
+
+    elif opcion == "4":
+        salir_libro(biblioteca)
+    else:
+        print("Opción no válida. Por favor, seleccione una opción correcta.")
