@@ -24,21 +24,7 @@ def añadir_comanda(pizzeria):
     elif opciones_pizzeria == 4
     print("Escoge el método de pago que prefieras")
 
-    
-
-    
-
-
-
-    
-
-
-
-
-
-
-
-
+    break
 
 while True:
     
@@ -47,4 +33,22 @@ while True:
     print("3. Gestionar ingredientes")
     print("4  Procesos de pagos")
 
+    if opcion == "1":
+        print(pizzeria)
     
+    elif opcion == "2":
+         print(pizzeria)
+        
+
+    elif opcion == "3":
+         print(pizzeria)
+
+
+    elif opcion == "4":
+         print(pizzeria)
+    else:
+        print("Opción no válida. Por favor, seleccione una opción correcta.")
+
+
+
+    pciones_pizzeria = int(input"Selecciona una opción"))   
