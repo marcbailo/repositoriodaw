@@ -15,6 +15,21 @@ def añadir_comanda(pizzeria):
     if opciones_pizzeria == 1
     print("Escoge la pizza que desees")
 
+    elif opciones_pizzeria == 2
+    print("De acuerdo, ahora mismo te la preparamos")
+
+    elif opciones_pizzeria == 3
+    print("Escoge los ingredientes para tu pizza")
+
+    elif opciones_pizzeria == 4
+    print("Escoge el método de pago que prefieras")
+
+    
+
+    
+
+
+
     
 
 
