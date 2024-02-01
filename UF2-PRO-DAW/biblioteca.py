@@ -45,7 +45,7 @@ def salir_libro(biblioteca):
 # He quitado este break ya que no está en ningún bucle.
 
 while True:
-    print("\n1. Agregar libro")
+    print("1. Agregar libro")
     print("2. Prestar libro")
     print("3. Devolver libro")
     print("4. Salir")
