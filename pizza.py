@@ -3,8 +3,23 @@
 #Això inclou la presa de comandes, la preparació de pizzes, la gestió de l'estoc d'ingredients i el processament dels pagaments.
 #Recordeu fer servir disseny top down, i mantenir un baix acoblament i una alta cohesió.
 
+
+
+pizzeria = []
+
+
+opciones_pizzeria = int(input("Pulsa 1 si quieres agregar un comando, 2 para preparar la pizza, 3 para escoger los ingredientes, 4 para prealizar pagos"))
+
+def añadir_comanda(pizzeria):
     
-opciones_pizzeria = input("Pulsa 1 si quieres agregar un comando, 2 para preparar la pizza, 3 para escoger los ingredientes, 4 para prealizar pagos")
+    if opciones_pizzeria == 1
+    print("Escoge la pizza que desees")
+
+    
+
+
+
+
 
 
 
@@ -12,9 +27,9 @@ opciones_pizzeria = input("Pulsa 1 si quieres agregar un comando, 2 para prepara
 
 while True:
     
-    print("1.Agregar un comando")
-    print("2.Preparar la pizza")
-    print("3.Gestionar ingredientes")
-    print("4 Procesos de pagos")
+    print("1. Agregar un comando")
+    print("2. Preparar la pizza")
+    print("3. Gestionar ingredientes")
+    print("4  Procesos de pagos")
 
     
