@@ -25,8 +25,7 @@ def registro_temperatura_min ():
     return (registro_temperatura_min)
 
     
-    
-    
+registro_Fecha()
     
 
 

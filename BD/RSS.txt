@@ -1,0 +1,54 @@
+<rss version="2.0">
+    <channel>
+<atom:link href="http://nike543.webnode.es/rss/all.xml" rel="self" type="application/rss+xml"/>
+<title>Todos los artículos - nike543.webnode.es</title>
+<link>http://nike543.webnode.es/archive/news/</link>
+<description/>
+<language>es</language>
+<pubDate>Sat, 01 Mar 2014 02:29:38 +0100</pubDate>
+<lastBuildDate>Sat, 01 Mar 2014 02:29:38 +0100</lastBuildDate>
+<category>Servicios</category>
+<category>novedades</category>
+<docs>http://blogs.law.harvard.edu/tech/rss</docs>
+<generator>Webnode</generator>
+<item>
+ <title>Catálogo y Venta a Domicilio</title>
+ <link>
+ </link>
+ <description>
+  En NIKE, nos gusta asegurar el mejor servicio posible a nuestros clientes. Por eso, además de calidad, eficiencia y precios económicos, ofrecemos un servicio a domicilio, ideal para quienes prefieren hacer sus compras desde la comodidad de sus casas u oficinas. Para ellos, tenemos un oportuno servicio de pedidos y venta a domicilio. ¡Llámenos al 555-2456! Nuestro servicio de atención al cliente incluye: Asesoramiento en la selección del tipo y modelo de calzado, envío de catálogo y...
+ </description>
+ <pubDate>Sat, 01 Mar 2014 02:29:38 +0100</pubDate>
+ <guid isPermaLink="true">
+  http://nike543.webnode.es/news/catalogo-y-venta-a-domicilio/
+ </guid>
+ <category>Servicios</category>
+</item>
+<item>
+  <title>Marcas</title>
+  <link>http://nike543.webnode.es/news/marcas/</link>
+  <description>
+   Nuestros principales proveedores son productores nacionales de las mejores líneas de calzado de tipo casual, elegante y deportivo. Esto nos ofrece una gran cobertura de estilos, funcionalidades, materiales y precios, que nos ayudan a proporcionar a nuestros clientes las mejores opciones de calzado, para cada ocasión y necesidad. Tenemos, además, proveedores de calzado extranjero, de marcas mundialmente reconocidas en el mercado por su estilo y calidad, para brindar a nuestros clientes una...
+  </description>
+  <pubDate>Sat, 01 Mar 2014 02:28:38 +0100</pubDate>
+  <guid isPermaLink="true">http://nike543.webnode.es/news/marcas/</guid>
+  <category>Servicios</category>
+</item>
+<item>
+  <title>NIKE</title>
+  <link>http://nike543.webnode.es/news/nike/</link>
+  <description> </description>
+  <pubDate>Fri, 28 Feb 2014 21:19:00 +0100</pubDate>
+  <guid isPermaLink="true">http://nike543.webnode.es/news/nike/</guid>
+  <category>novedades</category>
+</item>
+<item>
+  <title>lo nuevo en NIKE</title>
+  <link>http://nike543.webnode.es/news/lo-nuevo-en-nike/</link>
+  <description>Llego los mejores modelos en zapatillas NIKE . </description>
+  <pubDate>Fri, 28 Feb 2014 20:53:00 +0100</pubDate>
+  <guid isPermaLink="true">http://nike543.webnode.es/news/lo-nuevo-en-nike/</guid>
+  <category>novedades</category>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,52 @@
+{
+  "informe_operacion_messi": {
+    "titulo": "Informe sobre la gestión del fichaje de Messi por Inter Miami",
+    "descripcion": "Recopilación de eventos y acciones relacionados con la operación para fichar a Lionel Messi por parte de Inter Miami.",
+    "cronologia": [
+      {
+        "fecha": "30 de enero de 2018",
+        "evento": "Presentación de Inter Miami como nueva franquicia de expansión en la MLS con David Beckham y Jorge Mas como propietarios."
+      },
+      {
+        "fecha": "Septiembre de 2019",
+        "evento": "Reunión en Barcelona entre Jorge Mas, David Beckham y Jorge Messi para explorar la posibilidad de llevar a Lionel Messi a Inter Miami."
+      },
+      {
+        "fecha": "30 de junio de 2018",
+        "evento": "Finalización del contrato de Messi con el Barcelona y búsqueda de un nuevo destino tras las reglas financieras de La Liga."
+      },
+      {
+        "fecha": "10 de agosto de 2021",
+        "evento": "Messi firma un contrato con el PSG tras su salida del Barcelona y la conquista de la Copa América con Argentina."
+      },
+      {
+        "fecha": "15 de noviembre de 2022",
+        "evento": "Reunión de los hermanos Mas con Don Garber, Comisionado de la MLS, para comunicar su intención de fichar a Messi."
+      },
+      {
+        "fecha": "18 de diciembre de 2022",
+        "evento": "Jorge Mas asiste a la final de la Copa del Mundo en Doha, Qatar, donde Argentina se corona campeón."
+      },
+      {
+        "fecha": "4 de abril de 2023",
+        "evento": "Interés de Apple en asociarse con Messi para su potencial llegada a la MLS."
+      },
+      {
+        "fecha": "Mayo de 2023",
+        "evento": "Nueva reunión entre Jorge Mas y Jorge Messi para discutir la posibilidad de fichar por Inter Miami."
+      },
+      {
+        "fecha": "7 de junio de 2023",
+        "evento": "Anuncio oficial de Messi sobre su decisión de unirse a Inter Miami."
+      },
+      {
+        "fecha": "30 de junio de 2023",
+        "evento": "Anuncio oficial del fichaje de Messi por Inter Miami."
+      },
+      {
+        "fecha": "15 de julio de 2023",
+        "evento": "Presentación oficial de Lionel Messi en el DRV PNK Stadium de Miami, Florida."
+      }
+    ]
+  }+-
+}

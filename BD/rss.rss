@@ -1,0 +1,40 @@
+<rss version="2.0">
+  <channel>
+    <title>Inter Miami News</title>
+    <link>https://www.ejemplo.com/intermiami</link>
+    <description>Últimas noticias sobre Inter Miami</description>
+    <language>es</language>
+    <lastBuildDate>Fri, 19 Feb 2024 00:00:00 GMT</lastBuildDate>
+    <item>
+      <title>Inter Miami asegura el fichaje de Lionel Messi</title>
+      <description>Después de más de 4 años de negociaciones, Inter Miami finalmente anuncia oficialmente el fichaje de Lionel Messi. Jorge Mas, David Beckham y el equipo directivo celebran la llegada del astro argentino.</description>
+      <link>https://www.ejemplo.com/intermiami/messi-fichaje</link>
+      <pubDate>Fri, 15 Jul 2023 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>La cronología de la 'Operación Messi' por parte de Inter Miami</title>
+      <description>Un detallado análisis revela cómo Inter Miami gestionó la 'Operación Messi' durante más de 4 años. Desde las primeras reuniones en Barcelona hasta el anuncio oficial del fichaje, cada paso se examina en este informe exclusivo.</description>
+      <link>https://www.ejemplo.com/intermiami/cronologia-messi</link>
+      <pubDate>Sat, 16 Jul 2023 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Lionel Messi se une a Inter Miami</title>
+      <description>Lionel Messi revela en una entrevista exclusiva los motivos detrás de su decisión de unirse a Inter Miami. Con la firma del contrato oficial, el astro argentino se prepara para una nueva etapa en su carrera en la MLS.</description>
+      <link>https://www.ejemplo.com/intermiami/messi-se-une</link>
+      <pubDate>Wed, 07 Jun 2023 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>La MLS homenajea la llegada de Messi</title>
+      <description>La Major League Soccer rinde homenaje a la llegada de Lionel Messi a la liga. Una fotografía icónica del astro argentino vistiendo la camiseta de Inter Miami se exhibe en la sede central de Adidas, marcando un hito en la historia del fútbol estadounidense.</description>
+      <link>https://www.ejemplo.com/intermiami/homenaje-mls-messi</link>
+      <pubDate>Fri, 30 Jun 2023 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Messi firma contrato con Inter Miami</title>
+      <description>Inter Miami confirma la firma oficial del contrato de Lionel Messi, asegurando su presencia en el equipo. La presentación oficial está programada para el próximo mes en el DRV PNK Stadium de Miami, Florida, donde se espera una gran celebración para dar la bienvenida al astro argentino.</description>
+      <link>https://www.ejemplo.com/intermiami/messi-firma-contrato</link>
+      <pubDate>Sat, 15 Jul 2023 00:00:00 GMT</pubDate>
+    </item>
+    
+  </channel>
+</rss>

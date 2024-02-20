@@ -1,0 +1,41 @@
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Cronología del vertido de pellets en Galicia</title>
+  <link href="https://www.ejemplo.com/cronologia-vertido-pellets-galicia"/>
+  <updated>2024-02-19T00:00:00Z</updated>
+  <id>https://www.ejemplo.com/cronologia-vertido-pellets-galicia</id>
+  <entry>
+    <title>Pérdida de contenedores frente a las costas de Viana do Castelo</title>
+    <link href="https://www.ejemplo.com/pellets-perdida-contenedores"/>
+    <published>2023-12-08T00:00:00Z</published>
+    <id>https://www.ejemplo.com/pellets-perdida-contenedores</id>
+    <summary>El buque 'Toconao' pierde seis contenedores, uno de ellos con pellets de plástico, frente a las costas portuguesas. Primer incidente reportado.</summary>
+  </entry>
+  <entry>
+    <title>Aparición de pellets en la costa gallega</title>
+    <link href="https://www.ejemplo.com/pellets-primeros-avisos"/>
+    <published>2023-12-13T00:00:00Z</published>
+    <id>https://www.ejemplo.com/pellets-primeros-avisos</id>
+    <summary>Se detectan los primeros sacos de pellets en la playa de Balieiros. Se realizan los primeros llamados a las autoridades.</summary>
+  </entry>
+  <entry>
+    <title>Notificación oficial de la pérdida de contenedores</title>
+    <link href="https://www.ejemplo.com/pellets-notificacion-oficial"/>
+    <published>2023-12-20T00:00:00Z</published>
+    <id>https://www.ejemplo.com/pellets-notificacion-oficial</id>
+    <summary>Maersk notifica oficialmente la pérdida de contenedores al CCS Fisterra, aunque la Xunta no le da carácter oficial.</summary>
+  </entry>
+  <entry>
+    <title>Denuncia de Noia Limpa por la aparición de pellets en playas de Porto do Son</title>
+    <link href="https://www.ejemplo.com/pellets-denuncia-noia-limpa"/>
+    <published>2023-12-26T00:00:00Z</published>
+    <id>https://www.ejemplo.com/pellets-denuncia-noia-limpa</id>
+    <summary>El colectivo Noia Limpa denuncia la aparición de grandes cantidades de pellets en playas de Porto do Son, multiplicándose los hallazgos en toda la costa gallega.</summary>
+  </entry>
+  <entry>
+    <title>Reunión del comité de seguimiento del Camgal</title>
+    <link href="https://www.ejemplo.com/pellets-reunion-comite-seguimiento"/>
+    <published>2024-01-11T00:00:00Z</published>
+    <id>https://www.ejemplo.com/pellets-reunion-comite-seguimiento</id>
+    <summary>La Xunta reúne el comité de seguimiento del Plan Territorial de Contingencias por Contaminación Marina Accidental para acercar posturas y trasladar protocolos de recogida.</summary>
+  </entry>
+</feed>
