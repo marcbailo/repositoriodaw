@@ -4,7 +4,9 @@ Titol VARCHAR(15),
 CodiGenere INT(5),
 SegonaPart INT(5),
 CodiActor INT(5),
-PRIMARY KEY (CodiPeli)
+PRIMARY KEY (CodiPeli),
+FOREIGN KEY (CodiGenere) REFERENCES Genere (CodiGenere),
+FOREIGN KEY (CodiActor) REFERENCES Actor (CodiActor)
 
 );
 
@@ -47,8 +49,7 @@ CodiCopia INT(5),
 Data DATE,
 DNI CHAR(10),
 PRIMARY KEY (Data),
-FOREIGN KEY (CodiPeli) REFERENCES Pelicula (CodiPeli),
-FOREIGN KEY (CodiCopia) REFERENCES Copia (CodiCopia)
+FOREIGN KEY (DNI) REFERENCES Client (DNI)
 
 );
 
