@@ -1,15 +1,9 @@
 
- var a = 1
- var b = 1
-
-fun main(){
-sumar()
-
-}
 
 fun sumar(a: Int, b: Int): Int {
-    return a + b
+    return (a + b
 }
+
 println(sumar)
 
 
@@ -29,6 +23,12 @@ fun dividir(a: Int, b: Int): Int {
 }
 println(dividir)
 
+fun main(args: Array<String>){
+
+}
+
+var a: Int = 1
+var b: Int = 2
 
 
 
