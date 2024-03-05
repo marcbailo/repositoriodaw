@@ -11,10 +11,8 @@
 //     var myEmptyList: List<Int> = listof()
 //     prin
 // }
-fun main(args: Array<String>) {
-    var myEmptyList: List<String> = emptyList()
-    println("List contents : $myEmptyList")
-}
+fun
+
 
 // # 2. Client i Reserva:
 // #    - Registrar un nou client i obtenir un identificador únic.
