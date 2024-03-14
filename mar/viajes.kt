@@ -10,10 +10,6 @@
 // fun gestiondeViajes(arg:Array<String>){
 //     var myEmptyList: List<Int> = listof()
 //     prin
-// }
-fun
-
-
 // # 2. Client i Reserva:
 // #    - Registrar un nou client i obtenir un identificador únic.
 // #    - Permetre a un client fer una reserva per a una destinació específica.
@@ -27,3 +23,5 @@ fun
 // fun usuari():
 // # Nota:
 // # Pots assumir que ja tens una llista de viatges, clients i reserves inicials per a les primeres proves de l'aplicació.
+
+
