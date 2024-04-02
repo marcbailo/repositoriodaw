@@ -1,0 +1,9 @@
+hola buenas
+:x
+
+import os
+fd=open('./document.txt', 'r+')      
+
+document= input("Que se lea")                
+  
+os.rename(fd.document, document)
