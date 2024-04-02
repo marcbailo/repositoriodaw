@@ -1,0 +1,38 @@
+fun main() {
+    var coordenada = Pair(0, 0)
+
+    coordenada = moureDreta(coordenada)
+    println("Nova coordenada després de moure a la dreta: $coordenada")
+
+    coordenada = moureAmunt(coordenada)
+    println("Nova coordenada després de moure amunt: $coordenada")
+}
+
+
+// Funcions per moure'ns per la graella
+fun moureDreta(coordenada: Pair<Int, Int>): Pair<Int, Int> {
+    val (x, y) = coordenada
+    return Pair(x + 1, y)
+}
+
+fun moureEsquerra(coordenada: Pair<Int, Int>): Pair<Int, Int> {
+    val (x, y) = coordenada
+    return Pair(x - 1, y)
+}
+
+fun moureAmunt(coordenada: Pair<Int, Int>): Pair<Int, Int> {
+    val (x, y) = coordenada
+    return Pair(x, y + 1)
+}
+
+fun moureAvall(coordenada: Pair<Int, Int>): Pair<Int, Int> {
+    val (x, y) = coordenada
+    return Pair(x, y - 1)
+}
+
+// Executar moviments
+coordenada = moureDreta(coordenada)
+println("Nova coordenada després de moure a la dreta: $coordenada")
+
+coordenada = moureAmunt(coordenada)
+println("Nova coordenada després de moure amunt: $coordenada")

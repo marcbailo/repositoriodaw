@@ -1,0 +1,10 @@
+class Llibre(val titol: String, val autor: String, var exemplarsDisponibles: Int) {
+    
+    fun prestarLlibre() {
+        if (exemplarsDisponibles > 0) {
+            exemplarsDisponibles--
+            println("Llibre prestat amb èxit.")
+        } else {
+            println("No hi ha exemplars disponibles d'aquest llibre.")
+        }
+    }
