@@ -8,3 +8,30 @@ class Llibre(val titol: String, val autor: String, var exemplarsDisponibles: Int
             println("No hi ha exemplars disponibles d'aquest llibre.")
         }
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libro1.informacion()
+socio2.informacion()
+socio1.solicitarPrestamo(libro1)
+libro1.informacion()
+socio2.devolverPrestamo(libro1)
+libro1.informacion()
+
+}
+
+fun main() {
+    Main()
+
+}
