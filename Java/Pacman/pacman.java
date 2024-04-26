@@ -62,6 +62,7 @@ this.moveX -=1;
 
 // Añadimos los métodos
 
+
 public void pickupBola() {
 
 
@@ -75,9 +76,17 @@ public void pickupBolaEspecial() {
 
 public void pickupFruita() {
 
+private int posX;
+private int posY;
+
 }
 
-
+public pickupFruita(int posX, int posY) {
+   
+this.posX = posX;
+this.posY = posY;
+   
+    }
 
 public void loseLife() {
 
