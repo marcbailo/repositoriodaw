@@ -1,4 +1,11 @@
 
+// Esto no śe muy bien que era pero creo que es importante
+
+ public static void main(String[] args) {
+
+ }   
+
+
 //Clase Pacman
 public class pacman {
 
@@ -53,6 +60,7 @@ this.moveX -=1;
 
 }
 
+// Añadimos los métodos
 
 public void pickupBola() {
 
@@ -80,12 +88,19 @@ public boolean detectColisionFantasma(Fantasma fantasma) {
 
 }    
 
+// Metemos variables y posición del fantasma
 
 public class Fantasma {
 
+private int posX;
+private int posY;
+private String nom;
+
 }
 
-public Fantasma {
+public Fantasma (int initialPosX, int initialPosY, String nom) {
 
-    
+this.posX = initialPosX;
+this.posY
+
 }
