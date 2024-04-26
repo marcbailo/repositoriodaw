@@ -54,12 +54,38 @@ this.moveX -=1;
 }
 
 
+public void pickupBola() {
+
+
+}
+
+
+public void pickupBolaEspecial() {
+
+
+}   
+
+public void pickupFruita() {
+
+}
 
 
 
+public void loseLife() {
 
 
+}    
+
+public boolean detectColisionFantasma(Fantasma fantasma) {
+
+}    
 
 
+public class Fantasma {
 
+}
 
+public Fantasma {
+
+    
+}
