@@ -22,3 +22,20 @@ public void calcularPerimetre();
 
  } 
 }
+
+
+class Cercle extends Figura2D {
+    double radi;
+
+public Figura2D(String nom) {
+        this.nom = nom;
+    }
+
+}
+
+class Rectangle extends Figura2D {
+     double base;
+    double altura;
+}
+
+
