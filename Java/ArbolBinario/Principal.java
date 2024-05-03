@@ -30,3 +30,17 @@ ArbreBinari ArbolCar = new ArbreBinari(1,3);
 ArbreBinari ArbolCar = new ArbreBinari(2,1);
 
 System.out.println("Instancias arbolesCar: " + ArbreBinari.InstanciesArbre());
+
+
+System.gc();
+
+ArbolEnt.recorrerderecha();
+
+ArbolEnt.recorrerizquierda();
+
+
+ArbolCar.recorrerderecha();
+
+ArbolCar.recorrerderecha();
+
+System.out.println("Instancias arboles después del garbage collector" + ArbreBinari.InstanciesArbre());
