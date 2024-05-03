@@ -11,6 +11,9 @@ public class ArbreBinari {
 
 //2. Implementa constructors per a la creació de l'arbre binari.
 
+public ArbreBinari(int left, int right, int data) {
+
+}
 
 //3. Volem que les instancies d’arbre sapiguen quantes instancies coexisteixen a la vegada.
 
