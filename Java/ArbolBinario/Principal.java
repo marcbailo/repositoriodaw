@@ -44,3 +44,8 @@ ArbolCar.recorrerderecha();
 ArbolCar.recorrerderecha();
 
 System.out.println("Instancias arboles después del garbage collector" + ArbreBinari.InstanciesArbre());
+
+
+System.gc();
+
+System.out.println("Instancias arboles después del garbage collector" + ArbreBinari.InstanciesArbre());
