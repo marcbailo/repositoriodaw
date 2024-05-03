@@ -19,7 +19,7 @@ public ArbreBinari(int left, int right, int data) {
 
 public static int InstanciesArbre = 0;() {
 
-    
+
 }
 
 //4. Volem poder fer servir dos tipus d’arbres, un d’enters i un altre de caracters.
@@ -28,10 +28,11 @@ public static int InstanciesArbre = 0;() {
 
 //5. No volem que hi hagi cap tipus d’ordenació, simplement volem que estigui balancejat, aixó vol dir que cada branca tingui la mateixa profunditat.
 
+
 //6. Crear una classe Principal que s’encarregui de fer les següents tasques:
 
 
-
+// Empezamos con la Principal.
 
 
 //A. Crear 2 Arbres d’enters de fondaria 5.
