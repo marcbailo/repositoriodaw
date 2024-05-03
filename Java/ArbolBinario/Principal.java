@@ -21,8 +21,12 @@ public static void main(String[] args) {
 }
 
 ArbreBinari ArbolEnt = new ArbreBinari(1,5);
-ArbreBinari ArbolCar = new ArbreBinari(3,2);
-
-
+ArbreBinari ArbolEnt = new ArbreBinari(3,2);
 
 System.out.println("Instancias arbolesEnt: " + ArbreBinari.InstanciesArbre());
+
+
+ArbreBinari ArbolCar = new ArbreBinari(1,3);
+ArbreBinari ArbolCar = new ArbreBinari(2,1);
+
+System.out.println("Instancias arbolesCar: " + ArbreBinari.InstanciesArbre());
