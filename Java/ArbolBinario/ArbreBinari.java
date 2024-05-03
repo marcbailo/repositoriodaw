@@ -17,8 +17,14 @@ public ArbreBinari(int left, int right, int data) {
 
 //3. Volem que les instancies d’arbre sapiguen quantes instancies coexisteixen a la vegada.
 
+public static int InstanciesArbre = 0;() {
+
+    
+}
 
 //4. Volem poder fer servir dos tipus d’arbres, un d’enters i un altre de caracters.
+
+//Ya han sido creadas.
 
 //5. No volem que hi hagi cap tipus d’ordenació, simplement volem que estigui balancejat, aixó vol dir que cada branca tingui la mateixa profunditat.
 
