@@ -64,16 +64,16 @@ public class Tasca {
 
 
 
+    @Override
+    public String toString() {
+        return id + "," + title + "," + description + "," + dueDate + "," + status + "," + priority;
+    }
 
-
-
-
-
-
-
-
-
-
+   
+    public static Task fromString(String taskString) {
+        String[] fields = taskString.split(",");
+        return new Task(fields[1], fields[2], LocalDate.parse(fields[3]), fields[4], fields[5]);
+    }
 
 
 
