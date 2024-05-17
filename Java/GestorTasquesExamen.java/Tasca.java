@@ -1,3 +1,5 @@
+import java.time.LocalDate;
+
 public class Tasca {
     private String title; 
     private String description; 
