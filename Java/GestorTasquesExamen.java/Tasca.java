@@ -5,4 +5,6 @@ public class Tasca {
     private String status; 
     private String priority; 
 
+    private static int counter = 0; 
+    private int id; 
 }
