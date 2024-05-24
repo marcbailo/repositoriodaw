@@ -151,6 +151,13 @@ private void guardarEstat() {
             e.printStackTrace();
         }
     }
+
+  private void actualizarEstado() {
+        estadoLabel.setText("Estat del Robot: (" + x + ", " + y + ") Direcció: " + direccion);
+        System.out.println("Estat del Robot: (" + x + ", " + y + ") Direcció: " + direccion);
+    }
+
+  
     
     
 
