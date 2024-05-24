@@ -94,6 +94,42 @@ private JButton carregarEstatButton;
         actualizarEstado();
     }
 
+  private void girarEsquerra() {
+        switch (direccion) {
+            case "Nord":
+                direccion = "Oest";
+                break;
+            case "Est":
+                direccion = "Nord";
+                break;
+            case "Sud":
+                direccion = "Est";
+                break;
+            case "Oest":
+                direccion = "Sud";
+                break;
+        }
+        actualizarEstado();
+    }
+
+    private void girarDreta() {
+        switch (direccion) {
+            case "Nord":
+                direccion = "Est";
+                break;
+            case "Est":
+                direccion = "Sud";
+                break;
+            case "Sud":
+                direccion = "Oest";
+                break;
+            case "Oest":
+                direccion = "Nord";
+                break;
+        }
+        actualizarEstado();
+    }
+
 
     
     
