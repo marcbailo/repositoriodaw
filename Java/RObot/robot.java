@@ -56,6 +56,44 @@ private JButton carregarEstatButton;
     carregarEstatButton.addActionListener(e -> carregarEstat());
 
   }
+ 
+  
+  private void moverEndavant() {
+        switch (direccion) {
+            case "Nord":
+                y++;
+                break;
+            case "Est":
+                x++;
+                break;
+            case "Sud":
+                y--;
+                break;
+            case "Oest":
+                x--;
+                break;
+        }
+        actualizarEstado();
+    }
+
+    private void moverEnrere() {
+        switch (direccion) {
+            case "Nord":
+                y--;
+                break;
+            case "Est":
+                x--;
+                break;
+            case "Sud":
+                y++;
+                break;
+            case "Oest":
+                x++;
+                break;
+        }
+        actualizarEstado();
+    }
+
 
     
     
