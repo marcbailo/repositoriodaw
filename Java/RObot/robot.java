@@ -13,6 +13,17 @@ private JButton girarDretaButton;
 private JButton guardarEstatButton;
 private JButton carregarEstatButton;
 
+  private int x = 0;
+  private int y = 0;
+  private String direccion = "Nord";
 
 
+
+
+
+
+
+
+
+  
 }
