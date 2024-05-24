@@ -157,16 +157,9 @@ private void guardarEstat() {
         System.out.println("Estat del Robot: (" + x + ", " + y + ") Direcció: " + direccion);
     }
 
-  
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(() -> new ControlDeRobot().setVisible(true));
+    }
     
-    
-
-
-
-
-
-
-
-
   
 }
