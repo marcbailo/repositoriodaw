@@ -34,7 +34,19 @@ private JButton carregarEstatButton;
         girarEsquerraButton = new JButton("Girar Esquerra");
         girarDretaButton = new JButton("Girar Dreta");
         guardarEstatButton = new JButton("Guardar Estat");
-        carregarEstatButton = new JButton("Carregar Estat");    
+        carregarEstatButton = new JButton("Carregar Estat"); 
+
+    
+  panel.add(moverEndavantButton);
+        panel.add(moverEnrereButton);
+        panel.add(girarEsquerraButton);
+        panel.add(girarDretaButton);
+        panel.add(guardarEstatButton);
+        panel.add(carregarEstatButton);
+
+        add(estadoLabel, BorderLayout.NORTH);
+        add(panel, BorderLayout.CENTER);
+    
 
 
 
