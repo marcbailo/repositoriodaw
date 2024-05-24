@@ -17,6 +17,15 @@ private JButton carregarEstatButton;
   private int y = 0;
   private String direccion = "Nord";
 
+  
+  public Robot() {
+        setTitle("Control de Robot");
+        setSize(300, 200);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setLocationRelativeTo(null);
+
+        JPanel panel = new JPanel();
+        panel.setLayout(new GridLayout(3, 2, 5, 5));
 
 
 
