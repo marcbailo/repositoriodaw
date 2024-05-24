@@ -130,7 +130,14 @@ private JButton carregarEstatButton;
         actualizarEstado();
     }
 
-
+private void guardarEstat() {
+        try (PrintWriter writer = new PrintWriter(new File("robot_state.txt"))) {
+            writer.println(x + "," + y + "," + direccion);
+            JOptionPane.showMessageDialog(this, "Estado guardado.");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
     
     
 
