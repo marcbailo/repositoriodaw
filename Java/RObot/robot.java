@@ -3,7 +3,7 @@ import java.awt.*;
 import java.awt.event.*;
 import java.io.*;
 
-public class Robot extends JFrame {
+public class robot extends JFrame {
 
 private JLabel estadoLabel;
 private JButton moverEndavantButton;
@@ -18,7 +18,7 @@ private JButton carregarEstatButton;
   private String direccion = "Nord";
 
   
-  public Robot() {
+  public robot() {
         setTitle("Control de Robot");
         setSize(300, 200);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
