@@ -28,6 +28,15 @@ private JButton carregarEstatButton;
         panel.setLayout(new GridLayout(3, 2, 5, 5));
 
 
+ estadoLabel = new JLabel("Estat del Robot: (0, 0) Direcció: Nord");
+        moverEndavantButton = new JButton("Moure Endavant");
+        moverEnrereButton = new JButton("Moure Enrere");
+        girarEsquerraButton = new JButton("Girar Esquerra");
+        girarDretaButton = new JButton("Girar Dreta");
+        guardarEstatButton = new JButton("Guardar Estat");
+        carregarEstatButton = new JButton("Carregar Estat");    
+
+
 
 
 
