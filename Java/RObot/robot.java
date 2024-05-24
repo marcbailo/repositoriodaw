@@ -46,6 +46,18 @@ private JButton carregarEstatButton;
 
         add(estadoLabel, BorderLayout.NORTH);
         add(panel, BorderLayout.CENTER);
+
+
+   moverEndavantButton.addActionListener(e -> moverEndavant());
+    moverEnrereButton.addActionListener(e -> moverEnrere());
+    girarEsquerraButton.addActionListener(e -> girarEsquerra());
+    girarDretaButton.addActionListener(e -> girarDreta());
+    guardarEstatButton.addActionListener(e -> guardarEstat());
+    carregarEstatButton.addActionListener(e -> carregarEstat());
+
+  }
+
+    
     
 
 
