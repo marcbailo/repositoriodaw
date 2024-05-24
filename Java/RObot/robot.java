@@ -138,6 +138,19 @@ private void guardarEstat() {
             e.printStackTrace();
         }
     }
+
+   private void carregarEstat() {
+        try (BufferedReader reader = new BufferedReader(new FileReader("robot_state.txt"))) {
+            String[] estado = reader.readLine().split(",");
+            x = Integer.parseInt(estado[0]);
+            y = Integer.parseInt(estado[1]);
+            direccion = estado[2];
+            actualizarEstado();
+            JOptionPane.showMessageDialog(this, "Estado cargado.");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
     
     
 
