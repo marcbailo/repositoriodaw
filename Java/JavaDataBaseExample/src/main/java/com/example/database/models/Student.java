@@ -1,4 +1,4 @@
-package com.example.database.models;
+package main.java.com.example.database.models;
 
 public class Student {
     private int id;
@@ -9,7 +9,34 @@ public class Student {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
+        
+        // Return statement (optional)
+        return;
     }
 
-    // Getters y setters
+    // Getters
+    public int getId() {
+        return id;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    // Setters
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
 }
