@@ -1,0 +1,10 @@
+1. Añadir un ítem
+2. Eliminar un ítem por ID
+3. Buscar ítems por nombre
+4. Buscar ítems por tipo
+5. Listar todos los ítems
+6. Calcular el valor total
+7. Calcular el peso total
+8. Encontrar el ítem más valioso
+9. Encontrar el ítem más pesado
+0. Salir
