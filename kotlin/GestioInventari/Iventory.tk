@@ -1,0 +1,6 @@
+import kotlinx.serialization.Serializable
+
+@Serializable
+data class Inventory(
+    val items: MutableList<Item> = mutableListOf()
+)
