@@ -13,3 +13,9 @@ public Member(String firstName, String lastName, int memberId) {
         this.lastName = lastName;
         this.memberId = memberId;
     }
+
+public void requestLoan(Book book, String loanDate) {
+        System.out.println("Loan requested by " + firstName + " " + lastName + ", Member ID: " + memberId);
+        Loan loan = new Loan(book, this);
+        loan.registerLoan(loanDate);
+    }    
