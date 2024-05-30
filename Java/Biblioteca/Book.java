@@ -9,8 +9,9 @@ public class Book {
         this.availableCopies = availableCopies;
     }
 
-
-
-
+   public void returnBook() {
+        availableCopies++;
+        System.out.println("Libro devuelto: " + title + ", Author: " + author);
+    }
 
 }
