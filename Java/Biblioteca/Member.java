@@ -19,3 +19,9 @@ public void requestLoan(Book book, String loanDate) {
         Loan loan = new Loan(book, this);
         loan.registerLoan(loanDate);
     }    
+
+public void returnLoan(Book book) {
+        System.out.println("Returning loan by " + firstName + " " + lastName + ", Member ID: " + memberId);
+        Loan loan = new Loan(book, this);
+        loan.returnLoan();
+    }    
