@@ -7,3 +7,9 @@ public class Member {
 
 
 }  
+
+public Member(String firstName, String lastName, int memberId) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.memberId = memberId;
+    }
