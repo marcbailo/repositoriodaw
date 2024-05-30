@@ -3,15 +3,27 @@ public class Book {
     private String author;
     private int availableCopies;
 
- public Book(String title, String author, int availableCopies) {
+public Book(String title, String author, int availableCopies) {
         this.title = title;
         this.author = author;
         this.availableCopies = availableCopies;
     }
 
-   public void returnBook() {
+public void returnBook() {
         availableCopies++;
         System.out.println("Libro devuelto: " + title + ", Author: " + author);
     }
+
+public void info() {
+        System.out.println("Title: " + title + ", Author: " + author + ", Available Copies: " + availableCopies);
+    }
+
+
+
+
+
+
+
+
 
 }
