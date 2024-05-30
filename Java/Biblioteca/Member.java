@@ -24,4 +24,8 @@ public void returnLoan(Book book) {
         System.out.println("Returning loan by " + firstName + " " + lastName + ", Member ID: " + memberId);
         Loan loan = new Loan(book, this);
         loan.returnLoan();
-    }    
+    }  
+    
+ public void info() {
+        System.out.println("Book: " + book.getTitle() + ", Member: " + member.getFirstName() + " " + member.getLastName());
+    }      
