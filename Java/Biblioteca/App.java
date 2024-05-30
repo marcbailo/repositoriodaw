@@ -6,4 +6,9 @@ public class App {
 
     }
 
+
+Member member1 = new Member("Clark", "Kent", 101);
+        Member member2 = new Member("Bruce", "Wayne", 102);
+
+
 }       
